@@ -1,2 +1,2 @@
 # DSA
-A repo to push the stuff I learn in DSA
+A repo to showcase what everything I learn in DSA
