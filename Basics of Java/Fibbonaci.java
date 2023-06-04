@@ -19,5 +19,7 @@ public class Fibbonaci {
             currNo = nextNo;
             nextNo = sum;
         }
+
+        input.close();
     }
 }
