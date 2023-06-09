@@ -1,0 +1,14 @@
+works on sorted array (ascending)
+1) find the middle element of array
+2) if target > mid => search in right
+   else => search in left
+3) if mid == target => we found the element
+4) after (2),  new array will consist of elements either to the left or right of the mid
+   start and end will be updated according to mid
+5) iteratively repeat the process till mid == target
+
+best case scenario:
+O(1)
+
+worst case scenario:
+O(log(N));              N = size of arary
