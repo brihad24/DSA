@@ -13,6 +13,11 @@ public class CeilingOfNumber {
         }
     }
     // returns the largest number greater than or equal to target
+
+    //explanation: we need to return the index of the smallest number in array greater than our target
+    // as our loop runs, when the algorithm fails to find the target, start > end (since this is the terminating condtion)
+    // by now, the start and end have closed in on the possible index of target if it existed
+    // since the target was not found, the start index will be pointing to the number greater than our target, which is lowest in the array
     static int ceiling(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
