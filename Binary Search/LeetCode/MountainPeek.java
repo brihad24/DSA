@@ -1,6 +1,6 @@
 //Question: https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
-public class LeetCode852 {
+public class MountainPeek {
     public static void main(String[] args) {
         int[] arr = {0,1,0};
         int ans = peakIndexInMountainArray(arr);
