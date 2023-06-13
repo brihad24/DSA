@@ -2,20 +2,21 @@ import java.util.Arrays;
 
 public class MatrixBSearch{
     public static void main(String[] args) {
-        int[][] matrix ={
-                        {3, 12, 45, 87},
-                        {17, 32, 56, 91},
-                        {23, 39, 62, 95},
-                        {29, 48, 69, 99}
-                        };
-        int target = 49;
+        int[][] matrix = {{1,3}};
+        // int[][] matrix ={
+        //                 {3, 12, 45, 87},
+        //                 {17, 32, 56, 91},
+        //                 {23, 39, 62, 95},
+        //                 {29, 48, 69, 99}
+        //                 };
+        int target = 3;
         System.out.println(Arrays.toString(bSearch(matrix, target)));
     }
 
     // all the rows in the matrix are sorted as well as all the columns
     static int[] bSearch(int[][] matrix, int target){
         int row = 0;
-        int col = matrix.length-1;
+        int col = matrix[row].length-1;
         int[] indices = {-1,-1};
         while(row<matrix.length && col >= 0) // we start from the last element in the first row
         {

@@ -1,0 +1,7 @@
+sorts elements two at a time
+working:
+1) compares the first two elements, and interchanges the position if the 2nd element is smaller than the 1st
+2) goes to the next 2 elements and does step one
+3) after the largest element comes to the end, the first pass is done
+4) repeats steps 1 and 2 till the 2nd last element is 2nd largest
+5) keeps repeating till the array is sorted
