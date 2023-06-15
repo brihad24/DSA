@@ -1,0 +1,9 @@
+Sorts the array in index-wise manner
+begins by sorting the first two elements
+then proceeds to 3 elements
+    - the code first checks if 2nd index is less than the 1st and swaps
+    - then checks of 1st index is less than the 0th, and swaps
+keep repeating the process till end of the array
+
+time complexity = O(n^2)
+best case = O(n)
