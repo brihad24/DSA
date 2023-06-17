@@ -1,12 +1,9 @@
 // Question = https://leetcode.com/problems/missing-number/
 
-import java.util.Arrays;
-
 public class MissingNo {
     public static void main(String[] args) {
         int[] arr = {3,5,2,1,4};
-        MissingNum(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(MissingNum(arr));
     }
 
     static int MissingNum(int[] arr){
