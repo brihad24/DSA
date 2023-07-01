@@ -1,3 +1,2 @@
 # DSA
-A repo to showcase what everything I learn in DSA and the question I sovlve for this.
-I will mainly be sticking to Java for this.
+This repository will be a way for me to track and showcase everything I learn about DSA and all the LeetCode problems I solve
