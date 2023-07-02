@@ -7,7 +7,7 @@
     - after this, the flow of program is restored to where the function was called
 
 Example:
-<img src="functionCall.png"  width="300" height="300" align = left> 
+<img src="note ss/functionCall.png"  width="300" height="300" align = left> 
 
 - here, we can see that print 1 calls print 2, print 2 calls print 3, print 3 calls print 4, print 4 calls print 5
 - once print 5 is done executing, it pops out of the stack and flow of program is restored to print 4
@@ -24,7 +24,7 @@ Example:
 
 the call stack would look like this:
 
-<img src="image.png"  width="300" height="300" align = left>
+<img src="note ss/image.png"  width="300" height="300" align = left>
 
 - every function call will take memory in the stack separately
 - this is where base function is important
@@ -40,6 +40,6 @@ the call stack would look like this:
 * space complexity is not constant due to recursive function calls
 
 <h2>Visualising Recursion (also called recursion tree)</h2>
-<img src="recursionTree.png"  width="300" height="300">
+<img src="note ss/recursionTree.png"  width="300" height="300">
 <br>
 

@@ -9,6 +9,13 @@
     - draw the tree and call pointers
     - use debugger to see the flow 
 - see how the values are returned at each step & where the function call is coming out of
+
+<h4>Types of recurence relations:</h4>
+
+- Linear -> fibonacci
+    - added/subtracted linearly
+- Divide & Conquer -> binary search
+    - search space being divided
 <br>
 
 - there are 3 main variables in recursion
@@ -16,22 +23,18 @@
     - function as a variable (static int fun())
     - variables used inside the function 
 
-we are trying to solve fibonacci problem
+we are trying to make Binary Search with recursion
+- recurence relation
 
-- write a reccurence formula
-
-<img src="note ss/reccurence relation.png"  width="500" height="100">
+<img src="note ss/bin search rel.png"  width="400" height="150">
 <br><br>
 
-- build a recursion tree
+- recursion tree
 
-<img src="note ss/fiboTree.png"  width="500" height="300">
+<img src="note ss/BS rec tree.png"  width="400" height="150">
 <br><br>
 
-- base condtion is represented by answers already provided
-    - if n < 2;
-        return 2
-
-<h4>order of calls listed below</h4>
-
-<img src="note ss/order of calls.png"  width="500" height="300">
+- variables that need to be passed in future function calls, put them in the arguments
+- variables that are valuable in the body of the function, put them in the body
+- <b> always return a recursive function call 
+<br><br>
