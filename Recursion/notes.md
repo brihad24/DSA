@@ -1,4 +1,4 @@
-<h3>  Function Calls</h3>
+<h2>  Function Calls</h2>
 
 - functions while executing enter into a stack to track their status of execution
 - main() functions is the first method to enter the stack 
@@ -14,7 +14,7 @@ Example:
 - this keeps repeating till the main function is out of the stack and the program has finished
 <br><br><br><br><br><br><br><br>
 
-<h3>Recursion</h3>
+<h2>Recursion</h2>
 
 * look at recursion.java
 * here, we call the function rec() within itself
@@ -30,17 +30,16 @@ the call stack would look like this:
 - this is where base function is important
     - the stack will keep filling up with function calls
     - after a certain point, the memory will exxceed limit
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-<br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 <h4>Definition:</h4> Recursion is a function calling itself
+<h4>Need:</h4> useful to implement dynamicc programming
+<br><br>
+
+* you can convert recursion into interation(loops), & vice-versa
+* space complexity is not constant due to recursive function calls
+
+<h2>Visualising Recursion (also called recursion tree)</h2>
+<img src="recursionTree.png"  width="300" height="300">
+<br>
+
