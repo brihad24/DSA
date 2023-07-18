@@ -69,15 +69,6 @@ public class SudokuSolver {
         return false;
     }
 
-    private static void display(char[][] board) {
-        for(char[] row : board) {
-            for(char num : row) {
-                System.out.print(num + " ");
-            }
-            System.out.println();
-        }
-    }
-
     static boolean isSafe(char[][] board, int row, int col, int num){
         // check the row
         for (int i = 0; i < board.length; i++) {
@@ -105,7 +96,15 @@ public class SudokuSolver {
                 }
             }
         }
-
         return true;
+    }
+
+    private static void display(char[][] board) {
+        for(char[] row : board) {
+            for(char num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
     }
 }
