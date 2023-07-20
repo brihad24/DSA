@@ -21,3 +21,7 @@
 - to get a value at a certain index
     - we run a for loop for 'n' times (n = index)
     - the node being pointed to at end of n iterations is our value
+
+- ```next``` in our code is a reference variable that will only point to the next node
+
+![Alt text](image-18.png)
