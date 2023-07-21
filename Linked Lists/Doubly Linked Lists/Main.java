@@ -9,5 +9,8 @@ public class Main {
         list.insertLast(44);
 
         list.display();
+
+        list.insert(100, 5);
+        list.display();
     }
 }

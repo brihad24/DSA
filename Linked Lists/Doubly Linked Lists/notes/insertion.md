@@ -41,3 +41,25 @@
 - `node.next = null`
 
 ![Alt text](image-11.png)
+
+# Inserting at any position
+
+- create a new node and traverse to the index you need to insert at
+
+![Alt text](image-12.png)
+
+- `newNode.next = prevNode.next`
+
+![Alt text](image-13.png)
+
+- `prevNode.next = newNode`
+
+![Alt text](image-14.png)
+
+- `newNode.prev = prevNode`
+
+![Alt text](image-15.png)
+
+- `newNode.next.prev = newNode`
+
+![Alt text](image-16.png)

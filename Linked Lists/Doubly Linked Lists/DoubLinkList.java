@@ -30,6 +30,25 @@ public class DoubLinkList{
         // refer to insertion.md for detailed explanation
     }
 
+    public void insert(int val, int index){
+        if(index == 0){
+            insertFirst(val);
+            return;
+        }
+
+        Node indexNode = head;
+        for (int i = 1; i < index; i++) {
+            indexNode = indexNode.next; // we use this to reach the node previous to index given in the function
+        }
+
+        Node node = new Node(val, indexNode.next, indexNode); // we use this to call the constructor to create a new node, point it to index+1 element and index element
+        // refer to insertion notes for visual explanation
+        indexNode.next = node; //pointing the index-1 node to our newly created node; // connecting the node with rev node
+        if(node.next != null){
+            node.next.prev = node;
+        }
+    }
+
     public void display(){ // public since we need to access the function to display the linked list
         Node temp = head;
         Node last = null;
