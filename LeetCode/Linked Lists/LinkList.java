@@ -147,4 +147,55 @@ public class LinkList{
             this.next = next;
         }
     }
+
+    // Question: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+    public void duplicates(){
+        deleteDuplicates(head);
+    }
+    public Node deleteDuplicates(Node node) {
+        if(node == null){
+        return node;
+        }
+        Node head = node;
+        while(node.next != null){
+            if(node.value == node.next.value){
+                node.next = node.next.next;
+            }
+            else{
+                node = node.next;
+            }
+        }
+        return head;
+    }
+
+    // Question: https://leetcode.com/problems/merge-two-sorted-lists/
+    public static LinkList mergeTwoLists(LinkList list1, LinkList list2) {
+        Node head1 = list1.head;
+        Node head2 = list2.head;
+
+        LinkList ans = new LinkList();
+
+        while(head1 != null && head2 != null){
+            if(head1.value < head2.value){
+                ans.insertLast(head1.value);
+                head1 = head1.next;
+            }
+            if(head1.value > head2.value){
+                ans.insertLast(head2.value);
+                head2 = head2.next;
+            }
+        }
+
+        while(head1 != null){
+            ans.insertLast(head1.value);
+            head1 = head1.next;
+        }
+
+        while(head2 != null){
+            ans.insertLast(head2.value);
+            head2 = head2.next;
+        }
+
+        return ans;
+    }
 }

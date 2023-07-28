@@ -1,0 +1,2 @@
+- # To solve any Linked Lists problem, draw or visually represent the start state and the end state
+- # After this, draw out all the steps to reach from the start state to the end state
