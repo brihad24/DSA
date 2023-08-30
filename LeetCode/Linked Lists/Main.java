@@ -1,6 +1,6 @@
 // Question: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
-public class RemoveDupes{
+public class Main{
     public static void main(String[] args) {
         LinkList first = new LinkList();
         first.insertLast(1);

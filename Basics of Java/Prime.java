@@ -6,6 +6,7 @@ public class Prime {
         System.out.println("Enter number:");
         int num = sc.nextInt();
         System.out.println((isPrime(num)));
+        sc.close();
     }
 
     static String isPrime(int num) 

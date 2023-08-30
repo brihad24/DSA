@@ -74,6 +74,7 @@ public class LinkList{
             temp = temp.next;
         }
         System.out.print("End");
+        System.out.println();
     }
 
     public int deleteFirst(){
@@ -180,7 +181,7 @@ public class LinkList{
                 ans.insertLast(head1.value);
                 head1 = head1.next;
             }
-            if(head1.value > head2.value){
+            else{
                 ans.insertLast(head2.value);
                 head2 = head2.next;
             }
