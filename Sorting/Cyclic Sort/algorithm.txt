@@ -1,4 +1,4 @@
-always use when given array has numbers ranginf from 1 to n
+always use when given array has numbers ranging from 1 to n
 
 if we have an array = {3,5,2,1,4}
 we know that sorted array = {1,2,3,4,5}
